@@ -326,3 +326,41 @@ h1{
 
     cursor:url("../images/мышь.png"), pointer;
 }
+.merch-page{
+
+    width:1400px;
+    margin:80px auto;
+
+    text-align:center;
+}
+
+.merch-gallery{
+
+    display:flex;
+    justify-content:center;
+}
+
+.merch-item{
+
+    width:380px;
+    display:block;
+}
+
+#merchOrderBtn{
+
+    margin-top:40px;
+
+    width:380px;
+    height:70px;
+
+    background:transparent;
+
+    border:2px solid #95a83f;
+
+    color:white;
+
+    font-family:Inter;
+    font-size:30px;
+
+    cursor:url("../images/мышь.png"), pointer;
+}
