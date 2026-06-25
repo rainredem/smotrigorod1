@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Смотри Казань!</title>
 
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <a href="contacts.html" class="clickable">
+        КОНТАКТЫ
+    </a>
+
+    <h1>
+        СМОТРИ КАЗАНЬ!
+    </h1>
+
+    <a href="merch.html" class="clickable">
+        МЕРЧ
+    </a>
+
+</header>
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <h2>
+            Путеводитель, который перемещает во времени:
+            увидь развитие Казани своими глазами и поучаствуй
+            в событиях!
+        </h2>
+
+        <p>
+            Исследуйте популярные и нишевые маршруты,
+            выполняйте задания на локациях
+            и узнавайте о развитии города.
+        </p>
+
+    </div>
+
+    <img
+        src="images/веер.png"
+        alt=""
+        class="fan clickable"
+    >
+
+</section>
+
+<section class="decks">
+
+    <h2 class="decks-title">
+        ИГРОВЫЕ НАБОРЫ
+    </h2>
+
+    <div class="decks-wrapper">
+
+        <img
+            src="images/колода 1.png"
+            alt=""
+            id="deck1"
+            class="deck clickable"
+        >
+
+        <img
+            src="images/колода 2.png"
+            alt=""
+            id="deck2"
+            class="deck clickable"
+        >
+
+    </div>
+
+</section>
+
+<!-- Колода 1 -->
+
+<div class="modal" id="deck1Modal">
+
+    <div class="modal-content">
+
+        <img src="images/колода 1.png">
+
+        <button class="order-btn">
+            ЗАКАЗАТЬ
+        </button>
+
+    </div>
+
+</div>
+
+<!-- Колода 2 -->
+
+<div class="modal" id="deck2Modal">
+
+    <div class="modal-content">
+
+        <img src="images/колода 2.png">
+
+        <button class="order-btn">
+            ЗАКАЗАТЬ
+        </button>
+
+    </div>
+
+</div>
+
+<!-- Заявка -->
+
+<div class="modal" id="requestModal">
+
+    <div class="modal-content">
+
+        <img src="images/заявка.png">
+
+    </div>
+
+</div>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
