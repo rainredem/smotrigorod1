@@ -294,3 +294,35 @@ h1{
     font-size:28px;
     font-weight:600;
 }
+.deck-popup{
+
+    position:relative;
+
+    padding:0;
+    background:none;
+}
+
+.popup-image{
+
+    width:980px;
+    display:block;
+}
+
+.order-btn{
+
+    position:absolute;
+
+    left:75px;
+    bottom:65px;
+
+    width:140px;
+    height:42px;
+
+    background:transparent;
+
+    border:none;
+
+    font-size:0;
+
+    cursor:url("../images/мышь.png"), pointer;
+}
