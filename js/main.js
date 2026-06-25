@@ -40,3 +40,14 @@ window.onclick = (event) => {
         requestModal.classList.remove("active");
     }
 };
+const merchOrderBtn = document.getElementById("merchOrderBtn");
+
+if (merchOrderBtn) {
+
+    merchOrderBtn.onclick = () => {
+
+        requestModal.classList.add("active");
+
+    };
+
+}
